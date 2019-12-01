@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>756768442757-tkhni4fmse82t3ou4fn5elh05alh4a10.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.756768442757-tkhni4fmse82t3ou4fn5elh05alh4a10</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBpmUAMTtERgMNz8IoTNdin5EbwyLi52go</string>
+	<key>GCM_SENDER_ID</key>
+	<string>756768442757</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Natasha-Rao.LaunchPad-App-1</string>
+	<key>PROJECT_ID</key>
+	<string>spot-it-910fd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spot-it-910fd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:756768442757:ios:8ebbf5b8c3bab842d41cec</string>
+	<key>DATABASE_URL</key>
+	<string>https://spot-it-910fd.firebaseio.com</string>
+</dict>
+</plist>

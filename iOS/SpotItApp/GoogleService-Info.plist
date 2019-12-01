@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>59100586871-0jt7c4pg70ac493m4ib8jot607u7vu9j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.59100586871-0jt7c4pg70ac493m4ib8jot607u7vu9j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBAmV5V4kuiq7tycXZS9bApPtTAac53SKA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>59100586871</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Natasha-Rao.BuddyEats</string>
+	<key>PROJECT_ID</key>
+	<string>buddyeats-4be5c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>buddyeats-4be5c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:59100586871:ios:ecdaf1f14bf8976edd7772</string>
+	<key>DATABASE_URL</key>
+	<string>https://buddyeats-4be5c.firebaseio.com</string>
+</dict>
+</plist>

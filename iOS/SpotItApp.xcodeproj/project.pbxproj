@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271543E3236784800051B508 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271543E2236784800051B508 /* RoundButton.swift */; };
+		276A58F52384E36000E51E30 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276A58F42384E36000E51E30 /* ProfileViewController.swift */; };
+		277A037E23673D1B00F48995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A037D23673D1B00F48995 /* AppDelegate.swift */; };
+		277A038023673D1B00F48995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A037F23673D1B00F48995 /* SceneDelegate.swift */; };
+		277A038223673D1B00F48995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A038123673D1B00F48995 /* ViewController.swift */; };
+		277A038523673D1B00F48995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277A038323673D1B00F48995 /* Main.storyboard */; };
+		277A038723673D1B00F48995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277A038623673D1B00F48995 /* Assets.xcassets */; };
+		277A039523673D1C00F48995 /* LaunchPad_App_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A039423673D1C00F48995 /* LaunchPad_App_1Tests.swift */; };
+		277A03A023673D1C00F48995 /* LaunchPad_App_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A039F23673D1C00F48995 /* LaunchPad_App_1UITests.swift */; };
+		277CA9AC23905200002EB76E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277CA9AB23905200002EB76E /* LaunchScreen.storyboard */; };
+		277CA9B0239057D0002EB76E /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277CA9AF239057D0002EB76E /* FirebaseService.swift */; };
+		27E9065123687382008896CF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9065023687382008896CF /* SignUpViewController.swift */; };
+		27E906532368B150008896CF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E906522368B150008896CF /* MapView.swift */; };
+		27E906582368D0D0008896CF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E906572368D0D0008896CF /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		27E9065A2368D101008896CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E906592368D101008896CF /* CoreLocation.framework */; };
+		27E9065E2368D21D008896CF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9065D2368D21D008896CF /* MapViewController.swift */; };
+		27E906602368F7F4008896CF /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9065F2368F7F4008896CF /* CheckInViewController.swift */; };
+		33C916C318B93BCE29F7B8EE /* Pods_SpotItAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C9A4B6D461CAAB54089826 /* Pods_SpotItAppTests.framework */; };
+		67ADCF9C73F21A066521AA28 /* Pods_SpotItApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1E9976D25D4E14DA2780FD /* Pods_SpotItApp.framework */; };
+		B7224D282390672E008CD3CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7224D272390672E008CD3CB /* GoogleService-Info.plist */; };
+		BA82097D0346C8B2E8EDCB25 /* Pods_SpotItApp_SpotItAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE90C4A21B41988A2ADF99A /* Pods_SpotItApp_SpotItAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		277A039123673D1C00F48995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277A037223673D1B00F48995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277A037923673D1B00F48995;
+			remoteInfo = SpotItApp;
+		};
+		277A039C23673D1C00F48995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277A037223673D1B00F48995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277A037923673D1B00F48995;
+			remoteInfo = SpotItApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B93518CB86CA0D5EC6903AB /* Pods-SpotItAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotItAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SpotItAppTests/Pods-SpotItAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DDCC41A9AC9B02AEDA67379 /* Pods-SpotItApp-SpotItAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotItApp-SpotItAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpotItApp-SpotItAppUITests/Pods-SpotItApp-SpotItAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		271543E2236784800051B508 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		276A58F42384E36000E51E30 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		277A037A23673D1B00F48995 /* SpotItApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotItApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277A037D23673D1B00F48995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		277A037F23673D1B00F48995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		277A038123673D1B00F48995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		277A038423673D1B00F48995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		277A038623673D1B00F48995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277A038B23673D1B00F48995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277A039023673D1C00F48995 /* SpotItAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotItAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		277A039423673D1C00F48995 /* LaunchPad_App_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPad_App_1Tests.swift; sourceTree = "<group>"; };
+		277A039623673D1C00F48995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277A039B23673D1C00F48995 /* SpotItAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotItAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		277A039F23673D1C00F48995 /* LaunchPad_App_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPad_App_1UITests.swift; sourceTree = "<group>"; };
+		277A03A123673D1C00F48995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277CA9AB23905200002EB76E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		277CA9AF239057D0002EB76E /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		27E9065023687382008896CF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		27E906522368B150008896CF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		27E906572368D0D0008896CF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		27E906592368D101008896CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		27E9065D2368D21D008896CF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		27E9065F2368F7F4008896CF /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		475B63A5A49838F6C9DEE014 /* Pods-SpotItApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotItApp.release.xcconfig"; path = "Target Support Files/Pods-SpotItApp/Pods-SpotItApp.release.xcconfig"; sourceTree = "<group>"; };
+		8D1E9976D25D4E14DA2780FD /* Pods_SpotItApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotItApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5FAF99C7C67CBE25D0F1A4 /* Pods-SpotItAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotItAppTests.release.xcconfig"; path = "Target Support Files/Pods-SpotItAppTests/Pods-SpotItAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		924B96FF9037FDA503BD64C4 /* Pods-SpotItApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotItApp.debug.xcconfig"; path = "Target Support Files/Pods-SpotItApp/Pods-SpotItApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA18FA11B59B99115E7BB3D /* Pods-SpotItApp-SpotItAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotItApp-SpotItAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SpotItApp-SpotItAppUITests/Pods-SpotItApp-SpotItAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7224D272390672E008CD3CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEE90C4A21B41988A2ADF99A /* Pods_SpotItApp_SpotItAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotItApp_SpotItAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C9A4B6D461CAAB54089826 /* Pods_SpotItAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotItAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277A037723673D1B00F48995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E9065A2368D101008896CF /* CoreLocation.framework in Frameworks */,
+				27E906582368D0D0008896CF /* MapKit.framework in Frameworks */,
+				67ADCF9C73F21A066521AA28 /* Pods_SpotItApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277A038D23673D1C00F48995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C916C318B93BCE29F7B8EE /* Pods_SpotItAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277A039823673D1C00F48995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA82097D0346C8B2E8EDCB25 /* Pods_SpotItApp_SpotItAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0898934A66C5125488D4FEB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				924B96FF9037FDA503BD64C4 /* Pods-SpotItApp.debug.xcconfig */,
+				475B63A5A49838F6C9DEE014 /* Pods-SpotItApp.release.xcconfig */,
+				1DDCC41A9AC9B02AEDA67379 /* Pods-SpotItApp-SpotItAppUITests.debug.xcconfig */,
+				ABA18FA11B59B99115E7BB3D /* Pods-SpotItApp-SpotItAppUITests.release.xcconfig */,
+				0B93518CB86CA0D5EC6903AB /* Pods-SpotItAppTests.debug.xcconfig */,
+				8F5FAF99C7C67CBE25D0F1A4 /* Pods-SpotItAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		277A037123673D1B00F48995 = {
+			isa = PBXGroup;
+			children = (
+				277A037C23673D1B00F48995 /* SpotItApp */,
+				277A039323673D1C00F48995 /* SpotItAppTests */,
+				277A039E23673D1C00F48995 /* SpotItAppUITests */,
+				277A037B23673D1B00F48995 /* Products */,
+				27E906562368D0D0008896CF /* Frameworks */,
+				0898934A66C5125488D4FEB2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		277A037B23673D1B00F48995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277A037A23673D1B00F48995 /* SpotItApp.app */,
+				277A039023673D1C00F48995 /* SpotItAppTests.xctest */,
+				277A039B23673D1C00F48995 /* SpotItAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277A037C23673D1B00F48995 /* SpotItApp */ = {
+			isa = PBXGroup;
+			children = (
+				B7224D272390672E008CD3CB /* GoogleService-Info.plist */,
+				277A037D23673D1B00F48995 /* AppDelegate.swift */,
+				277A037F23673D1B00F48995 /* SceneDelegate.swift */,
+				277A038123673D1B00F48995 /* ViewController.swift */,
+				277A038323673D1B00F48995 /* Main.storyboard */,
+				27E9065F2368F7F4008896CF /* CheckInViewController.swift */,
+				27E9065D2368D21D008896CF /* MapViewController.swift */,
+				27E9065023687382008896CF /* SignUpViewController.swift */,
+				27E906522368B150008896CF /* MapView.swift */,
+				277CA9AB23905200002EB76E /* LaunchScreen.storyboard */,
+				271543E2236784800051B508 /* RoundButton.swift */,
+				277A038623673D1B00F48995 /* Assets.xcassets */,
+				277A038B23673D1B00F48995 /* Info.plist */,
+				276A58F42384E36000E51E30 /* ProfileViewController.swift */,
+				277CA9AF239057D0002EB76E /* FirebaseService.swift */,
+			);
+			path = SpotItApp;
+			sourceTree = "<group>";
+		};
+		277A039323673D1C00F48995 /* SpotItAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				277A039423673D1C00F48995 /* LaunchPad_App_1Tests.swift */,
+				277A039623673D1C00F48995 /* Info.plist */,
+			);
+			path = SpotItAppTests;
+			sourceTree = "<group>";
+		};
+		277A039E23673D1C00F48995 /* SpotItAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				277A039F23673D1C00F48995 /* LaunchPad_App_1UITests.swift */,
+				277A03A123673D1C00F48995 /* Info.plist */,
+			);
+			path = SpotItAppUITests;
+			sourceTree = "<group>";
+		};
+		27E906562368D0D0008896CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27E906592368D101008896CF /* CoreLocation.framework */,
+				27E906572368D0D0008896CF /* MapKit.framework */,
+				8D1E9976D25D4E14DA2780FD /* Pods_SpotItApp.framework */,
+				CEE90C4A21B41988A2ADF99A /* Pods_SpotItApp_SpotItAppUITests.framework */,
+				E7C9A4B6D461CAAB54089826 /* Pods_SpotItAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277A037923673D1B00F48995 /* SpotItApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277A03A423673D1C00F48995 /* Build configuration list for PBXNativeTarget "SpotItApp" */;
+			buildPhases = (
+				67A1C806197DBBB7C281A34B /* [CP] Check Pods Manifest.lock */,
+				277A037623673D1B00F48995 /* Sources */,
+				277A037723673D1B00F48995 /* Frameworks */,
+				277A037823673D1B00F48995 /* Resources */,
+				C0D5311A6401D4909B2BDD54 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotItApp;
+			productName = SpotItApp;
+			productReference = 277A037A23673D1B00F48995 /* SpotItApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		277A038F23673D1C00F48995 /* SpotItAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277A03A723673D1C00F48995 /* Build configuration list for PBXNativeTarget "SpotItAppTests" */;
+			buildPhases = (
+				6F7E57EE1E674C1BC520DDFA /* [CP] Check Pods Manifest.lock */,
+				277A038C23673D1C00F48995 /* Sources */,
+				277A038D23673D1C00F48995 /* Frameworks */,
+				277A038E23673D1C00F48995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277A039223673D1C00F48995 /* PBXTargetDependency */,
+			);
+			name = SpotItAppTests;
+			productName = SpotItAppTests;
+			productReference = 277A039023673D1C00F48995 /* SpotItAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		277A039A23673D1C00F48995 /* SpotItAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277A03AA23673D1C00F48995 /* Build configuration list for PBXNativeTarget "SpotItAppUITests" */;
+			buildPhases = (
+				FD05671FD1CA5310ED5A08DA /* [CP] Check Pods Manifest.lock */,
+				277A039723673D1C00F48995 /* Sources */,
+				277A039823673D1C00F48995 /* Frameworks */,
+				277A039923673D1C00F48995 /* Resources */,
+				839DACA07AD07D9686660411 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277A039D23673D1C00F48995 /* PBXTargetDependency */,
+			);
+			name = SpotItAppUITests;
+			productName = SpotItAppUITests;
+			productReference = 277A039B23673D1C00F48995 /* SpotItAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277A037223673D1B00F48995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Natasha Rao";
+				TargetAttributes = {
+					277A037923673D1B00F48995 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					277A038F23673D1C00F48995 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 277A037923673D1B00F48995;
+					};
+					277A039A23673D1C00F48995 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 277A037923673D1B00F48995;
+					};
+				};
+			};
+			buildConfigurationList = 277A037523673D1B00F48995 /* Build configuration list for PBXProject "SpotItApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277A037123673D1B00F48995;
+			productRefGroup = 277A037B23673D1B00F48995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277A037923673D1B00F48995 /* SpotItApp */,
+				277A038F23673D1C00F48995 /* SpotItAppTests */,
+				277A039A23673D1C00F48995 /* SpotItAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277A037823673D1B00F48995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277CA9AC23905200002EB76E /* LaunchScreen.storyboard in Resources */,
+				B7224D282390672E008CD3CB /* GoogleService-Info.plist in Resources */,
+				277A038723673D1B00F48995 /* Assets.xcassets in Resources */,
+				277A038523673D1B00F48995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277A038E23673D1C00F48995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277A039923673D1C00F48995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67A1C806197DBBB7C281A34B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpotItApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7E57EE1E674C1BC520DDFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpotItAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		839DACA07AD07D9686660411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotItApp-SpotItAppUITests/Pods-SpotItApp-SpotItAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotItApp-SpotItAppUITests/Pods-SpotItApp-SpotItAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpotItApp-SpotItAppUITests/Pods-SpotItApp-SpotItAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D5311A6401D4909B2BDD54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotItApp/Pods-SpotItApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotItApp/Pods-SpotItApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpotItApp/Pods-SpotItApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD05671FD1CA5310ED5A08DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpotItApp-SpotItAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277A037623673D1B00F48995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271543E3236784800051B508 /* RoundButton.swift in Sources */,
+				27E906532368B150008896CF /* MapView.swift in Sources */,
+				27E906602368F7F4008896CF /* CheckInViewController.swift in Sources */,
+				277A038223673D1B00F48995 /* ViewController.swift in Sources */,
+				277A037E23673D1B00F48995 /* AppDelegate.swift in Sources */,
+				277A038023673D1B00F48995 /* SceneDelegate.swift in Sources */,
+				277CA9B0239057D0002EB76E /* FirebaseService.swift in Sources */,
+				276A58F52384E36000E51E30 /* ProfileViewController.swift in Sources */,
+				27E9065123687382008896CF /* SignUpViewController.swift in Sources */,
+				27E9065E2368D21D008896CF /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277A038C23673D1C00F48995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277A039523673D1C00F48995 /* LaunchPad_App_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277A039723673D1C00F48995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277A03A023673D1C00F48995 /* LaunchPad_App_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		277A039223673D1C00F48995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277A037923673D1B00F48995 /* SpotItApp */;
+			targetProxy = 277A039123673D1C00F48995 /* PBXContainerItemProxy */;
+		};
+		277A039D23673D1C00F48995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277A037923673D1B00F48995 /* SpotItApp */;
+			targetProxy = 277A039C23673D1C00F48995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		277A038323673D1B00F48995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277A038423673D1B00F48995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		277A03A223673D1C00F48995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		277A03A323673D1C00F48995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		277A03A523673D1C00F48995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924B96FF9037FDA503BD64C4 /* Pods-SpotItApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4K4Y4VCJ6;
+				INFOPLIST_FILE = SpotItApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natasha-Rao.LaunchPad-App-1";
+				PRODUCT_NAME = SpotItApp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		277A03A623673D1C00F48995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475B63A5A49838F6C9DEE014 /* Pods-SpotItApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4K4Y4VCJ6;
+				INFOPLIST_FILE = SpotItApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natasha-Rao.LaunchPad-App-1";
+				PRODUCT_NAME = SpotItApp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		277A03A823673D1C00F48995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B93518CB86CA0D5EC6903AB /* Pods-SpotItAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4K4Y4VCJ6;
+				INFOPLIST_FILE = SpotItAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natasha-Rao.LaunchPad-App-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotItApp.app/SpotItApp";
+			};
+			name = Debug;
+		};
+		277A03A923673D1C00F48995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5FAF99C7C67CBE25D0F1A4 /* Pods-SpotItAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4K4Y4VCJ6;
+				INFOPLIST_FILE = SpotItAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natasha-Rao.LaunchPad-App-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotItApp.app/SpotItApp";
+			};
+			name = Release;
+		};
+		277A03AB23673D1C00F48995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDCC41A9AC9B02AEDA67379 /* Pods-SpotItApp-SpotItAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4K4Y4VCJ6;
+				INFOPLIST_FILE = SpotItAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natasha-Rao.LaunchPad-App-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpotItApp;
+			};
+			name = Debug;
+		};
+		277A03AC23673D1C00F48995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA18FA11B59B99115E7BB3D /* Pods-SpotItApp-SpotItAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4K4Y4VCJ6;
+				INFOPLIST_FILE = SpotItAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Natasha-Rao.LaunchPad-App-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpotItApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277A037523673D1B00F48995 /* Build configuration list for PBXProject "SpotItApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277A03A223673D1C00F48995 /* Debug */,
+				277A03A323673D1C00F48995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277A03A423673D1C00F48995 /* Build configuration list for PBXNativeTarget "SpotItApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277A03A523673D1C00F48995 /* Debug */,
+				277A03A623673D1C00F48995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277A03A723673D1C00F48995 /* Build configuration list for PBXNativeTarget "SpotItAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277A03A823673D1C00F48995 /* Debug */,
+				277A03A923673D1C00F48995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277A03AA23673D1C00F48995 /* Build configuration list for PBXNativeTarget "SpotItAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277A03AB23673D1C00F48995 /* Debug */,
+				277A03AC23673D1C00F48995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277A037223673D1B00F48995 /* Project object */;
+}
