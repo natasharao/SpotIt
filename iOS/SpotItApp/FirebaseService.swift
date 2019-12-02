@@ -23,9 +23,11 @@ struct SpotitLocation {
     var maxOccupancy : Int
     var currentOccupancy : Int
     var geoPoint: GeoPoint
+    var address: String
+    var imageURL: String
     
     static func createEmptyLocation() -> SpotitLocation {
-       return SpotitLocation(locId: "", locationName: "", maxOccupancy: 0, currentOccupancy: 0, geoPoint: GeoPoint(latitude: 0.0, longitude: 0.0))
+        return SpotitLocation(locId: "", locationName: "", maxOccupancy: 0, currentOccupancy: 0, geoPoint: GeoPoint(latitude: 0.0, longitude: 0.0), address: "", imageURL: "")
     }
 }
 
@@ -111,6 +113,27 @@ class FirebaseService {
         }
     }
     
+    func downloadLocationImage(locationPictureName: String, completionBlock: @escaping (_ image: UIImage?) -> Void) {
+               let imagesRef = storageRef.child("locationimages")
+               let imageRef =  imagesRef.child("\(locationPictureName)")
+               imageRef.downloadURL { (url, error) in
+                 guard let downloadURL = url else {
+                   // Uh-oh, an error occurred!
+                   completionBlock(nil)
+                   return
+                 }
+                   
+                 //Success we have url
+                 do {
+                        let data = try Data(contentsOf: downloadURL)
+                        let image = UIImage(data: data)
+                       completionBlock(image)
+                 } catch {
+                       completionBlock(nil)
+                 }
+               }
+    }
+    
     func fetchSpotItLocations(user: User, completionBlock: @escaping (_ locations: [SpotitLocation]?) -> Void ) {
         let docRef = db.collection("SpotItLocations")
         
@@ -124,12 +147,14 @@ class FirebaseService {
             for document in snapshot.documents {
                 print("\(document.documentID) => \(document.data())")
                 let dictionary = document.data()
+                let address = dictionary["address"] as! String
+                let imageURL = dictionary["imageURL"] as! String
                 let locationName = dictionary["locationName"] as! String
                 let maxOccupancy = dictionary["maxOccupancy"] as! Int
                 let currentOccupancy = dictionary["currentOccupancy"] as! Int
                 let point =  dictionary["location"] as! GeoPoint
                 let locId = document.documentID
-                let spotItLocation = SpotitLocation(locId: locId, locationName: locationName, maxOccupancy: maxOccupancy, currentOccupancy: currentOccupancy, geoPoint: point)
+                let spotItLocation = SpotitLocation(locId: locId, locationName: locationName, maxOccupancy: maxOccupancy, currentOccupancy: currentOccupancy, geoPoint: point, address: address, imageURL: imageURL)
                 spotItlocations.append(spotItLocation)
             }
             completionBlock(spotItlocations)
@@ -147,10 +172,12 @@ class FirebaseService {
             }
             let locationName = dictionary["locationName"] as! String
             let maxOccupancy = dictionary["maxOccupancy"] as! Int
+            let imageURL = dictionary["imageURL"] as! String
+            let address = dictionary["address"] as! String
             let currentOccupancy = dictionary["currentOccupancy"] as! Int
             let point =  dictionary["location"] as! GeoPoint
             let locId = snapshot.documentID
-            let spotItLocation = SpotitLocation(locId: locId, locationName: locationName, maxOccupancy: maxOccupancy, currentOccupancy: currentOccupancy, geoPoint: point)
+            let spotItLocation = SpotitLocation(locId: locId, locationName: locationName, maxOccupancy: maxOccupancy, currentOccupancy: currentOccupancy, geoPoint: point, address: address, imageURL: imageURL)
             completionBlock(spotItLocation)
         }
         

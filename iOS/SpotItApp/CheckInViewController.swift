@@ -72,6 +72,12 @@ class CheckInViewController: UIViewController {
         locationNameField.text = "\(checkInlocation.locationName) (\(checkInlocation.maxOccupancy))"
         numberOfPeopleField.text = "\(checkInlocation.currentOccupancy) number of people checked in"
         circleImage.addShadow()
+        locationAddressField.text = checkInlocation.address
+        FirebaseService.instance.downloadLocationImage(locationPictureName: checkInlocation.imageURL) { (image) in
+            DispatchQueue.main.async {
+                self.circleImage.image = image
+            }
+        }
     }
         // Do any additional setup after loading the view.
 }

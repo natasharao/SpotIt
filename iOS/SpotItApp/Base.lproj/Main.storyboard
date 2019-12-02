@@ -10,12 +10,12 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LaunchPad_App_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SpotItApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Of9-ur-DqL" customClass="RoundButton" customModule="LaunchPad_App_1" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Of9-ur-DqL" customClass="RoundButton" customModule="SpotItApp" customModuleProvider="target">
                                 <rect key="frame" x="39" y="612" width="337" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.017691051587462425" green="0.64702045917510986" blue="0.63922446966171265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -126,7 +126,7 @@
         <!--Profile View Controller-->
         <scene sceneID="Srg-qd-VkG">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="AS5-oA-2aU" customClass="ProfileViewController" customModule="LaunchPad_App_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="AS5-oA-2aU" customClass="ProfileViewController" customModule="SpotItApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7AH-aL-a29">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,7 +206,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="0kW-mh-JOX">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="3Xg-bj-2du" customClass="SignUpViewController" customModule="LaunchPad_App_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="3Xg-bj-2du" customClass="SignUpViewController" customModule="SpotItApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m6N-EA-zeY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -290,7 +290,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqk-Vf-bFf" customClass="RoundButton" customModule="LaunchPad_App_1" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqk-Vf-bFf" customClass="RoundButton" customModule="SpotItApp" customModuleProvider="target">
                                 <rect key="frame" x="57" y="651" width="298" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.01769105159" green="0.64702045919999995" blue="0.63922446970000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -317,7 +317,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyB-F3-IQa" customClass="RoundButton" customModule="LaunchPad_App_1" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyB-F3-IQa" customClass="RoundButton" customModule="SpotItApp" customModuleProvider="target">
                                 <rect key="frame" x="146" y="130" width="113" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -410,7 +410,7 @@
         <!--Map View Controller-->
         <scene sceneID="Var-Bu-n8g">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="c1C-lS-SBm" customClass="MapViewController" customModule="LaunchPad_App_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="c1C-lS-SBm" customClass="MapViewController" customModule="SpotItApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ige-c2-6ua">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -438,7 +438,7 @@
         <!--Check In View Controller-->
         <scene sceneID="dtr-Rc-if1">
             <objects>
-                <viewController storyboardIdentifier="checkin" id="286-kZ-CP5" customClass="CheckInViewController" customModule="LaunchPad_App_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checkin" id="286-kZ-CP5" customClass="CheckInViewController" customModule="SpotItApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I9w-qm-Eco">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -447,11 +447,11 @@
                                 <rect key="frame" x="-80" y="-460" width="556" height="850"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="p-trans (2)" translatesAutoresizingMaskIntoConstraints="NO" id="Adp-fM-aom">
-                                <rect key="frame" x="-43" y="204" width="520" height="348"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LAWSON-Circle" translatesAutoresizingMaskIntoConstraints="NO" id="Adp-fM-aom">
+                                <rect key="frame" x="20" y="204" width="394" height="348"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxP-Md-bIi" customClass="RoundButton" customModule="LaunchPad_App_1" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxP-Md-bIi" customClass="RoundButton" customModule="SpotItApp" customModuleProvider="target">
                                 <rect key="frame" x="60" y="705" width="306" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -485,8 +485,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="305 N University St, West Lafayette, IN 47907" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6q-mU-JtF">
-                                <rect key="frame" x="52" y="597" width="315" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="305 N University St, West Lafayette, IN 47907" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6q-mU-JtF">
+                                <rect key="frame" x="10" y="597" width="395" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="highlightedColor"/>
@@ -514,7 +514,7 @@
                     <connections>
                         <outlet property="checkInButton" destination="bxP-Md-bIi" id="vFs-QK-cF7"/>
                         <outlet property="circleImage" destination="Adp-fM-aom" id="Yrd-1Q-9ji"/>
-                        <outlet property="locationAddressField" destination="t6q-mU-JtF" id="vb6-uh-Q9y"/>
+                        <outlet property="locationAddressField" destination="t6q-mU-JtF" id="Y2P-ex-Joq"/>
                         <outlet property="locationNameField" destination="iT7-Wl-F6A" id="qgw-kA-w2V"/>
                         <outlet property="numberOfPeopleField" destination="htH-RE-6Li" id="4vU-gb-iav"/>
                     </connections>
@@ -566,12 +566,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LAWSON-Circle" width="1122" height="1052"/>
         <image name="Screen Shot 2019-10-28 at 3.15.11 PM" width="2162" height="932"/>
         <image name="Screen Shot 2019-10-30 at 10.52.12 AM-1" width="966" height="1874"/>
         <image name="book" catalog="system" width="64" height="50"/>
         <image name="circle.fill" catalog="system" width="64" height="60"/>
         <image name="escape" catalog="system" width="64" height="60"/>
-        <image name="p-trans (2)" width="1122" height="1052"/>
         <image name="pencil.tip" catalog="system" width="48" height="64"/>
         <image name="person" catalog="system" width="64" height="58"/>
         <image name="star" catalog="system" width="64" height="58"/>
